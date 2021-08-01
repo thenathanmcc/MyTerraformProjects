@@ -8,7 +8,7 @@ provider "digitalocean" {
 }
 
 data "digitalocean_project" "test-project" {
-    name = "Tes project Infrastructure"
+    name = "Test project Infrastructure"
 }
 
 data "digitalocean_vpc" "backend_vpc" {
